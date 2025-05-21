@@ -58,7 +58,7 @@ const CheckOutPage = () => {
     }
 
     return freebies;
-  }, [cart]);
+  }, [cart,allProducts]);
 
   const totalAmount = cart.reduce((total, item) => {
     return total + item.quantity * parseFloat(item.price.replace("£", ""));
