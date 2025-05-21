@@ -34,7 +34,7 @@ const SearchResulPage = () => {
 
   return (
     <>
-      <div className="w-full py-5 flex justify-center gap-3 flex-wrap">
+      <div className="w-full py-5 flex justify-center gap-3 flex-wrap mt-18">
         {category.map((item) => (
           <button
             key={item}

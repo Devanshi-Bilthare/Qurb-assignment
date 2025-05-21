@@ -65,7 +65,7 @@ const CheckOutPage = () => {
   }, 0);
 
   return (
-    <div className="min-h-screen p-4 bg-gray-50">
+    <div className="min-h-screen p-4 bg-gray-50 mt-18">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-6">
         <div className="flex-1 bg-white rounded shadow p-6">
           <h2 className="text-2xl font-semibold mb-4">Products</h2>
